@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Rock+Salt');
+
+body, html {
+   height:100%;
+   background-color: #EDE9E6;
+}
+*{
+  border:0;
+  margin:0;
+  padding:0;
+
+}
+
+.header {
+  background-color: #535456;
+  height: 100px;
+  color: #EDE9E6;
+  border-bottom:5px solid #EDE9E6;
+}
+.title{
+font-size: 50px;
+margin-top: 10px;
+margin-left: 5%;
+width: 45%;
+float: left;
+font-family: 'Bree Serif', serif;
+}
+.navbar{
+
+}
+.navbar ul{
+  list-style: none;
+  float:right;
+  width: 50%;
+}
+.navbar ul a li {
+  display: inline-block;
+  float: right;
+  margin-top: 40px;
+  margin-right: 1%;
+  padding:5px;
+  font-family: 'Bree Serif', serif;
+}
+.navbar ul a :hover{
+  text-decoration: underline;
+}
+
+.navbar ul a li{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #EDE9E6;
+}
+.content {
+  margin-left: 1%;
+  min-height: 85%;
+  width: 99%;
+
+}
+
+
+.main_content{
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 95%;
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+}
+
+.main_content h2 {
+  text-align: center;
+  font-size: 3em;
+
+}
+.main_content h3 {
+    text-align: center;
+    margin-top:30px;
+     text-decoration: underline;
+     font-size: 2em;
+}
+.details_container{
+  width: 60%;
+  margin: 0 auto;
+}
+.details_container img{
+  display:block;
+  margin: 25px auto 25px auto;
+  width:60%;
+}
+.details_container p {
+  font-size:1.5em;
+  text-indent:3em;
+  margin-top:15px;
+}
+.details_container ol li{
+  margin-left:100px;
+  font-size: 1.25em;
+}
+.footer {
+  clear: both;
+  height: 50px;
+  background-color: #ddd;
+}
+/************
+about me picture
+***************/
+
+
+ .picture img {
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+/* *************************
+index page 
+**********************************************/
+
+.index_navbar ul{
+  list-style: none;
+  float:right;
+  width: 100%;
+}
+.index_navbar ul a li {
+  width:10%;
+  display: inline-block;
+  margin-left:12.5%;
+  margin-top: 25px;
+  font-family: 'Bree Serif', serif;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #EDE9E6;
+  text-align:center;
+}
+.index_navbar ul a :hover{
+  text-decoration: underline;
+}
+
+.main_content_index h1{
+  text-align: center;
+  font-size: 4em;
+  color: #EDE9E6;
+  font-family: 'Rock Salt', cursive;
+}
+.content_index {
+  background-image: url("../img/moab2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 65%;
+  padding-top:15%;
+}
