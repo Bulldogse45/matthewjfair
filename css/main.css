@@ -84,7 +84,7 @@ font-family: 'Bree Serif', serif;
 .details_container img{
   display:block;
   margin: 25px auto 25px auto;
-  width:60%;
+  max-width: 60%;
 }
 .details_container p {
   text-indent:3em;
