@@ -6,6 +6,24 @@
     height: 75px;
 }
 
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.dark-bg {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 30px;
+}
+
+.width-33 {
+    width: 33%;
+}
+
+.dark-bg hr {
+    background-color: #ccc;
+    width: 33%;
+}
 .header-div{
     margin-top: 10px;
 }
