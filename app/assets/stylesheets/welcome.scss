@@ -1,99 +1,31 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@font-face {
-	font-family: 'ReemKufi';
-	src:font-url('ReemKufi-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-.separator {
-    height: 75px;
-}
-
-p, h2, .nav-link, .navbar-brand {
-  font-family: 'ReemKufi';
-}
-
-p {
-  font-size: 18px;
-}
-
-.navbar-brand {
-  font-size: 24px;
-}
-
-
-.navbar {
-    border-bottom: 1px solid #ccc;
-}
-
-.dark-bg {
-    background-color: #343a40;
-    color: #ccc;
-    padding: 30px;
-}
-
-.width-33 {
-    width: 33%;
-}
-
-.dark-bg hr {
-    background-color: #ccc;
-    width: 33%;
-}
-.header-div{
-    margin-top: 10px;
-}
 
 .job-section {
     margin-left: 10%;
     margin-right: 10%;
-    font-family: 'ReemKufi';
-  }
+    text-align: left;
+}
+
+.job-row {
+  margin-top: 20px;
+}
   
 .job-company {
   margin-top: 20px;
   font-size: 24px;
   text-decoration: underline;
-  font-family: 'ReemKufi';
 }
 .job-timeframe{
   margin-top: 20px;
   font-size: 20px;
-  font-family: 'ReemKufi';
 }
 .job-title {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'ReemKufi';
 }
 .job-description {
   font-size: 18px;
   padding-top: 15px;
-  font-family: 'ReemKufi';
-}
-
-  .project-description{
-    font-size: 12px;
-    color: inherit;
-    font-family: 'ReemKufi';
-  }
-  
-  .footer{
-  display: inline-block;
-  clear: both;
-  padding:15px;
-  font-family: 'ReemKufi';
-}
-
-.contact-icon {
-  color: #343a40;
-  font-size:  large;;
-}
-
-.contact-icon:hover {
-  color: rgb(231, 78, 6);
-  text-decoration: none;
 }
