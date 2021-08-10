@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
   def index
     @jobs = [
-      { icon: "laptop", business: "Tangoe", start_date: "February 2016", end_date: "Present", title: "Sofware Engineer", description: "Full stack developer working with Ruby on Rails app using AngularJS."},
+      { icon: "laptop", business: "Tangoe", start_date: "February 2016", end_date: "Present", title: "Lead Software Engineer", description: "Full stack developer working with Ruby on Rails app using AngularJS."},
       { icon: "hospital", business: "IU Health", start_date: "August 2014", end_date: "October 2015", title: "Practice Manager", description: "Managed day to day operations of a multispecialty phsysicians' office with 23 direct reports."},
       { icon: "hospital", business: "IU Health", start_date: "May 2011", end_date: "August 2014", title: "Practice Operations Specialist", description: "Aggregated and presented operations data for all Primary Care, OB/GYN, and Behavioral Health Physicians."}
     ]
